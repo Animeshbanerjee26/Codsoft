@@ -12,16 +12,16 @@ try:
     opr = input("Enter the operation to be performed (+ - * /):  ")     #taking input of operation 
 
         #addition
-    if"+":
+    if  opr=="+":
             print(f"{num1} + {num2} =", stripNum(num1 + num2))
         #subtraction
-    elif "-":
+    elif opr=="-":
             print(f"{num1} - {num2} =", stripNum(num1 - num2))
         #multiplication
-    elif "*":
+    elif opr=="*":
             print(f"{num1}*{num2} =", stripNum(num1 * num2))
         #division
-    elif "/":
+    elif opr=="/":
             print(f"{num1} / {num2} =", stripNum(num1 / num2))
         #case when user entered something else (wrong operator)
     else:
